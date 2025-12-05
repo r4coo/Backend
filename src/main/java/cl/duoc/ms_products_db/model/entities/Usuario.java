@@ -25,20 +25,8 @@ public class Usuario {
     @Column(name = "nombreusuario")
     private String nombreUsuario;
 
-    @Column(name = "appaterno")
-    private String apellidoPaterno;
-
-    @Column(name = "apmaterno")
-    private String apellidoMaterno;
-
     @Column(name = "correo")
     private String correo;
-
-    @Column(name = "celular")
-    private String celular;
-
-    @Column(name = "direccion")
-    private String direccion;
     
     @Column(name = "password")
     private String password;

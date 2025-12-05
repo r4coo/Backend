@@ -21,20 +21,8 @@ public class UsuarioDTO {
     @JsonProperty(value = "usuario_nombre")
     private String nombreUsuario;
 
-    @JsonProperty(value = "usuario_appaterno")
-    private String apellidoPaterno;
-
-    @JsonProperty(value = "usuario_apmaterno")
-    private String apellidoMaterno;
-
     @JsonProperty(value = "usuario_correo")
     private String correo;
-
-    @JsonProperty(value = "usuario_celular")
-    private String celular;
-
-    @JsonProperty(value = "usuario_direccion")
-    private String direccion;
 
     @JsonProperty(value = "usuario_password")
     private String password;
