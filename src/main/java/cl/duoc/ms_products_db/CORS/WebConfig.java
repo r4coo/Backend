@@ -1,4 +1,4 @@
-package cl.duoc.ms_products_db.Front;
+package cl.duoc.ms_products_db.CORS;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
